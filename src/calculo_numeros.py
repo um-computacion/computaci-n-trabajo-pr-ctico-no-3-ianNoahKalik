@@ -1,6 +1,5 @@
-'''
 from exceptions import ingrese_numero
-
+from exceptions import NumeroDebeSerPositivo 
 def main():
     """
     Programa principal que solicita números al usuario y muestra los resultados.
@@ -19,4 +18,3 @@ def main():
 
 if __name__ == "__main__":
     main() 
-'''
