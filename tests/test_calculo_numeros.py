@@ -22,7 +22,6 @@ class TestCalculoNumeros(unittest.TestCase):
     def test_ingreso_negativo(self, patch_input):
         with self.assertRaises(NumeroDebeSerPositivo):
             ingrese_numero()
-
     @patch(  # este patch controla lo que hace el input
         'builtins.input',
         return_value='AAA'
